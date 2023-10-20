@@ -1,0 +1,17 @@
+.Persik {
+  display: block;
+  width: 30%;
+  max-width: 240px;
+  margin: 20px auto;
+  position: absolute;
+  top:40vh;
+  left:30vw;
+ 
+  transition-duration: 1s;
+}
+.Persik:hover{
+  transform: scale(3.0);
+  filter: brightness(150%);
+  top: 70vh;
+  
+}
